@@ -1,4 +1,4 @@
-// https://www.11ty.dev/docs/layouts/
+// Code from https://www.11ty.dev/docs/layouts/
 
 module.exports = {
   data: {
