@@ -1,0 +1,117 @@
+caseygollan@MacBook-Pro eleventy-sample % DEBUG=Eleventy* npx @11ty/eleventy --serve
+  Eleventy:cmd command: eleventy { _: [], quiet: null, version: false, watch: false, dryrun: false, help: false, serve: true, incremental: false, 'ignore-initial': false } +0ms
+  Eleventy:EventBus Setting up global EventBus. +0ms
+  Eleventy:UserConfig Resetting EleventyConfig to initial values. +0ms
+  Eleventy:UserConfig Adding universal filter 'slug' +19ms
+  Eleventy:UserConfig Adding universal filter 'slugify' +0ms
+  Eleventy:UserConfig Adding universal filter 'url' +0ms
+  Eleventy:UserConfig Adding universal filter 'log' +0ms
+  Eleventy:UserConfig Adding universal filter 'serverlessUrl' +1ms
+  Eleventy:UserConfig Adding universal filter 'getCollectionItemIndex' +0ms
+  Eleventy:UserConfig Adding universal filter 'getCollectionItem' +0ms
+  Eleventy:UserConfig Adding universal filter 'getPreviousCollectionItem' +0ms
+  Eleventy:UserConfig Adding universal filter 'getNextCollectionItem' +0ms
+  Eleventy:TemplateConfig rootConfig { templateFormats: [ 'liquid',   'ejs', 'md',       'hbs', 'mustache', 'haml', 'pug',      'njk', 'html',     '11ty.js' ], pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'liquid', htmlOutputSuffix: '-o', dataFileSuffixes: [ '.11tydata', '' ], dataFileDirBaseNameOverride: false, keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride', computed: 'eleventyComputed' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, handlebarsHelpers: {}, nunjucksFilters: {} } +0ms
+  Eleventy Setting process.env.ELEVENTY_ROOT: '/Users/caseygollan/Dropbox/Mac (2)/Documents/GitHub/eleventy-sample' +0ms
+  Eleventy:TemplateConfig Merging config with undefined +4ms
+  Eleventy:TemplateConfig Eleventy local project config file not found, skipping. +0ms
+  Eleventy:TemplateConfig overrides: {} +0ms
+  Eleventy:TemplateConfig Current configuration: { pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'liquid', htmlOutputSuffix: '-o', dataFileSuffixes: [ '.11tydata', '' ], dataFileDirBaseNameOverride: false, keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride', computed: 'eleventyComputed' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, handlebarsHelpers: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, nunjucksFilters: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, templateFormats: [ 'liquid',   'ejs', 'md',       'hbs', 'mustache', 'haml', 'pug',      'njk', 'html',     '11ty.js' ], transforms: {}, linters: {}, globalData: {}, layoutAliases: {}, layoutResolution: true, passthroughCopies: {}, liquidOptions: {}, liquidTags: {}, liquidFilters: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, liquidShortcodes: {}, liquidPairedShortcodes: {}, nunjucksEnvironmentOptions: {}, nunjucksPrecompiledTemplates: {}, nunjucksAsyncFilters: {}, nunjucksTags: {}, nunjucksGlobals: {}, nunjucksAsyncShortcodes: {}, nunjucksShortcodes: {}, nunjucksAsyncPairedShortcodes: {}, nunjucksPairedShortcodes: {}, handlebarsShortcodes: {}, handlebarsPairedShortcodes: {}, javascriptFunctions: { slug: [Function (anonymous)], slugify: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], serverlessUrl: [Function (anonymous)], getCollectionItemIndex: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, pugOptions: {}, ejsOptions: {}, markdownHighlighter: null, libraryOverrides: {}, dynamicPermalinks: true, useGitIgnore: true, ignores: Set(2) { '**/node_modules/**', '.git/**' }, watchIgnores: Set(2) { '**/node_modules/**', '.git/**' }, dataDeepMerge: true, watchJavaScriptDependencies: true, additionalWatchTargets: [], serverOptions: {}, chokidarConfig: {}, watchThrottleWaitTime: 0, frontMatterParsingOptions: undefined, dataExtensions: Map(0) {}, extensionMap: Set(0) {}, quietMode: false, events: AsyncEventEmitter { _events: [Object: null prototype] {}, _eventsCount: 0, _maxListeners: undefined, [Symbol(kCapture)]: false }, benchmarkManager: BenchmarkManager { benchmarkGroups: { Configuration: [BenchmarkGroup], Aggregate: [BenchmarkGroup] }, isVerbose: true, start: 286.5729969739914 }, plugins: [], useTemplateCache: true, precompiledCollections: {}, dataFilterSelectors: Set(0) {}, libraryAmendments: {}, serverPassthroughCopyBehavior: 'copy', urlTransforms: [] } +1ms
+  Eleventy Eleventy warm up time (in ms) 313.7336969971657 +4ms
+  Eleventy:TemplatePassthroughManager Resetting counts to 0 +0ms
+  Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./terminal.log +0ms
+  Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./terminal.log +0ms
+  Eleventy Directories:
+  Eleventy Input (Dir): .
+  Eleventy Input (File): undefined
+  Eleventy Data: _data
+  Eleventy Includes: _includes
+  Eleventy Layouts: undefined
+  Eleventy Output: _site
+  Eleventy Template Formats: liquid,ejs,md,hbs,mustache,haml,pug,njk,html,11ty.js
+  Eleventy Verbose Output: false +5ms
+  Eleventy:EleventyFiles Searching for: [ './**/*.{liquid,ejs,md,hbs,mustache,haml,pug,njk,html,11ty.js,11ty.cjs}' ] +36ms
+  Eleventy:FastGlobManager Glob search ('templates') searching for: [ './**/*.{liquid,ejs,md,hbs,mustache,haml,pug,njk,html,11ty.js,11ty.cjs}' ] +0ms
+  Eleventy:TemplatePassthroughManager TemplatePassthrough copy started. +68ms
+  Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API paths: {} +1ms
+  Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API normalized paths: [] +0ms
+  Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files. +0ms
+  Eleventy:TemplateData getLocalDataPaths('./index.11ty.js'): [ './index.11tydata.js', './index.11tydata.cjs', './index.11tydata.json', './index.json' ] +1ms
+  Eleventy:TemplateWriter ./index.11ty.js adding to template map. +0ms
+  Eleventy:TemplatePassthroughManager TemplatePassthrough copy finished. Current count: 0 +4ms
+  Eleventy:FastGlobManager Glob search ('global-data') searching for: [ './_data/**/*.{json,cjs,js}' ] +37ms
+  Eleventy:Template Template date: using file’s 'birthtimeMs' for './index.11ty.js' of 2023-01-26T11:28:13.541Z (from 1674732493541.8826) +0ms
+  Eleventy:TemplateMap Caching collections objects. +0ms
+  Eleventy:TemplateMap Collection: collections.all size: 1 +4ms
+  Eleventy:TemplateMap Collection: collections.all size: 1 +1ms
+  Eleventy:TemplateWriter Template map created. +22ms
+  Eleventy:Logger Writing _site/index.html from ./index.11ty.js +0ms
+  Eleventy:Template _site/index.html written.. +13ms
+  Eleventy:Logger Benchmark     29ms  23%     1× (Aggregate) Searching the file system (templates) +4ms
+  Eleventy:Benchmark Benchmark     29ms  23%     1× (Aggregate) Searching the file system (templates) +0ms
+  Eleventy:Benchmark Benchmark      3ms   3%     1× (Aggregate) Searching the file system (data) +0ms
+  Eleventy:Benchmark Benchmark      3ms   2%     1× (Aggregate) Template Write +4ms
+[11ty] Wrote 1 file in 0.11 seconds (v2.0.0-beta.1)
+  Eleventy Finished writing templates. +102ms
+  Eleventy 
+  Eleventy       Getting frustrated? Have a suggestion/feature request/feedback?
+  Eleventy       I want to hear it! Open an issue: https://github.com/11ty/eleventy/issues/new +0ms
+  Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API paths: {} +32ms
+  Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API normalized paths: [] +0ms
+  Eleventy:FastGlobManager Glob search ('js-dependencies') searching for: [ './**/*.11tydata.js' ] +35ms
+  Eleventy Watching for changes to: [ './**/*.{liquid,ejs,md,hbs,mustache,haml,pug,njk,html,11ty.js,11ty.cjs}', './_includes/**', './_data/**', './.gitignore', './.eleventyignore', './.eleventy.js', './eleventy.config.js', './eleventy.config.cjs', './**/*.{json,11tydata.cjs,11tydata.js}' ] +56ms
+  Eleventy Ignoring watcher changes to: [ 'terminal.log', '_site/**', './**/node_modules/**', './.git/**' ] +2ms
+  Eleventy:Benchmark Benchmark     63ms NaN%     1× (Watch) Start up --watch +65ms
+  Eleventy:Benchmark Benchmark     53ms NaN%     1× (Watch) Watching JavaScript Dependencies (disable with `eleventyConfig.setWatchJavaScriptDependencies(false)`) +0ms
+[11ty] Watching…
+  EleventyDevServer Creating new Dev Server instance. +0ms
+  EleventyDevServer Watching [] +1ms
+  EleventyDevServer Server already using port 8080, trying the next port 8081. Retry number 1 of 10 +4ms
+  Eleventy:Logger Server at http://localhost:8081/ +156ms
+[11ty] File changed: index.11ty.js
+  Eleventy Restarting +6s
+  Eleventy:TemplatePassthroughManager Resetting counts to 0 +6s
+  Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./terminal.log +6s
+  Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./terminal.log +0ms
+  Eleventy:TemplatePassthroughManager Resetting counts to 0 +1ms
+  Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./terminal.log +2ms
+  Eleventy:EleventyFiles .gitignore,.eleventyignore,.eleventyignore ignoring: ./terminal.log +0ms
+  Eleventy Directories:
+  Eleventy Input (Dir): .
+  Eleventy Input (File): undefined
+  Eleventy Data: _data
+  Eleventy Includes: _includes
+  Eleventy Layouts: undefined
+  Eleventy Output: _site
+  Eleventy Template Formats: liquid,ejs,md,hbs,mustache,haml,pug,njk,html,11ty.js
+  Eleventy Verbose Output: false +3ms
+  Eleventy:EleventyFiles Searching for: [ './**/*.{liquid,ejs,md,hbs,mustache,haml,pug,njk,html,11ty.js,11ty.cjs}' ] +1ms
+  Eleventy:FastGlobManager Glob search ('templates') searching for: [ './**/*.{liquid,ejs,md,hbs,mustache,haml,pug,njk,html,11ty.js,11ty.cjs}' ] +6s
+  Eleventy:TemplatePassthroughManager TemplatePassthrough copy started. +2ms
+  Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API paths: {} +0ms
+  Eleventy:TemplatePassthroughManager `addPassthroughCopy` config API normalized paths: [] +0ms
+  Eleventy:TemplateData Using [ '.11tydata', '' ] suffixes to find data files. +6s
+  Eleventy:TemplateData getLocalDataPaths('./index.11ty.js'): [ './index.11tydata.js', './index.11tydata.cjs', './index.11tydata.json', './index.json' ] +1ms
+  Eleventy:TemplateWriter ./index.11ty.js adding to template map. +6s
+  Eleventy:TemplatePassthroughManager TemplatePassthrough copy finished. Current count: 0 +1ms
+  Eleventy:FastGlobManager Glob search ('global-data') searching for: [ './_data/**/*.{json,cjs,js}' ] +2ms
+  Eleventy:Template Template date: using file’s 'birthtimeMs' for './index.11ty.js' of 2023-01-26T11:28:13.541Z (from 1674732493541.8826) +6s
+  Eleventy:TemplateMap Caching collections objects. +6s
+  Eleventy:TemplateMap Collection: collections.all size: 1 +0ms
+  Eleventy:TemplateMap Collection: collections.all size: 1 +0ms
+  Eleventy:TemplateWriter Template map created. +3ms
+  Eleventy:Logger Writing _site/index.html from ./index.11ty.js +6s
+  Eleventy:Template _site/index.html written.. +3ms
+  Eleventy:Benchmark Benchmark      0ms   3%     1× (Aggregate) Searching the file system (templates) +6s
+  Eleventy:Benchmark Benchmark      1ms   8%     1× (Aggregate) Searching the file system (data) +0ms
+  Eleventy:Benchmark Benchmark      0ms   2%     1× (Aggregate) Render +0ms
+  Eleventy:Benchmark Benchmark      0ms   2%     1× (Aggregate) > Render > ./index.11ty.js +0ms
+  Eleventy:Logger Benchmark      2ms  23%     1× (Aggregate) Template Write +3ms
+  Eleventy:Benchmark Benchmark      2ms  23%     1× (Aggregate) Template Write +0ms
+[11ty] Wrote 1 file in 0.01 seconds (v2.0.0-beta.1)
+  Eleventy Finished writing templates. +8ms
+  Eleventy 
+  Eleventy       Getting frustrated? Have a suggestion/feature request/feedback?
+  Eleventy       I want to hear it! Open an issue: https://github.com/11ty/eleventy/issues/new +0ms
+  Eleventy:FastGlobManager Glob search ('js-dependencies') searching for: [ './**/*.11tydata.js' ] +6ms
+  Eleventy:Logger Watching… +2ms
